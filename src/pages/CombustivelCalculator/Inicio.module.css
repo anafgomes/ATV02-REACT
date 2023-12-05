@@ -1,0 +1,52 @@
+.calculadoracontainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imagem {
+    height: 200px;
+    width: 200px;
+}
+
+.inputscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+input {
+    background-color: blueviolet;
+    height: 11px;
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--branco);
+}
+
+input::placeholder {
+    color: var(--branco);
+}
+
+button {
+    background-color: rgb(14, 1, 26);
+    height: 35px;
+    width: 273px;
+    padding: 5px 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+label {
+    color: var(--branco);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
